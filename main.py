@@ -260,7 +260,7 @@ def menu(death_count):
         font = pygame.font.Font('text.ttf', 15) #loads up the .ttf file in order to use the font
 #Adds text with the defined font and size
         if death_count == 0: #the main menu that loads up if the user has just started playing
-            text = font.render("Welcome to Ashab Naveeds COMP SCI Game, Press any Key to Start", True, (255, 255, 255))
+            text = font.render("Press any Key to Start", True, (255, 255, 255))
             SCREEN.blit(background, (0,0))
         
         elif death_count > 0: #the menu that loads up after the player loses a round of the game; this is shown from this point on until the code is restarted
